@@ -1,0 +1,72 @@
+.container header{
+    background-color: lightgrey;
+    padding-top:20px;
+    
+}
+.container header p, header h1{
+    text-align: center;
+}
+
+.container header h1{
+    font-size: 50px;
+}
+
+.container header p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+header nav ul{
+    background-color:rgb(41, 97, 114);
+    padding-bottom: 10px;
+   padding-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(27, 32, 37);
+    padding: 5px;
+}
+
+header a:hover{
+background-color: rgb(101, 139, 189);
+color: rgb(37, 41, 48);
+}
+
+.content{
+    width: 1250px;
+    box-sizing: border-box;
+}
+
+.content article p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+    font-size: 18px;
+    padding: 15px;
+    clear: both;
+    
+}
+
+article{
+    float: left;
+    width: 800px;
+}
+
+aside{
+    float: right;
+    width: 400px;
+}
+
+
